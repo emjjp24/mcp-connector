@@ -16,5 +16,4 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Runtime log (a snapshot of your demo goes in evidence/ instead)
-logs/
+start-ngrok.cmd

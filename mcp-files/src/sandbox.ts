@@ -1,7 +1,4 @@
-/**
- * SANDBOX
- * The ONLY folder the AI may touch is ROOT. Every tool calls safePath() before touching a file.
- */
+
 import "./env.js";
 import fs from "node:fs";
 import os from "node:os";
