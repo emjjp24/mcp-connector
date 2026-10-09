@@ -10,8 +10,8 @@ module.exports = {
     },
     {
       name: "mcp-tunnel",
-      script: "ngrok",
-      args: "http --url=YOUR-STATIC-DOMAIN.ngrok-free.app 8000",
+      script: "C:\\Windows\\System32\\cmd.exe",
+      args: "/d /s /c start-ngrok.cmd",
       interpreter: "none",
       autorestart: true,
     },
