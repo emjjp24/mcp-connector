@@ -17,3 +17,4 @@ Thumbs.db
 .idea/
 
 start-ngrok.cmd
+calls.jsonl
