@@ -1,0 +1,5 @@
+d03cb9c tester 2026-10-09 19:27:30 +0800 checkpoint: Ran 5 guardrail probes; all 5 were blocked and no files were changed. (1) read_f
+541ab4b coder 2026-10-09 19:23:00 +0800 checkpoint: Built todo.py (argparse CLI with add, list, done; JSON storage; TodoError handli
+3bac8fb planner 2026-10-09 19:22:39 +0800 checkpoint: Planned the to-do CLI: logged the plan, recorded the decision to use Python with
+f2cbad6 coder 2026-10-09 19:16:42 +0800 checkpoint: Built todo.py (argparse CLI with add, list and done subcommands, JSON storage in
+f67fedf planner 2026-10-09 19:16:26 +0800 checkpoint: Planning done: session started, plan logged, decision recorded (Python, no exter

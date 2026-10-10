@@ -100,17 +100,14 @@ mcp-files/
 │   ├── sandbox.test.ts      14 tests: sandbox, validation, destructive guards, handoff, git
 │   └── auth.test.ts         9 tests: real HTTP + MCP, tokens, tool calls, errors, logging
 ├── evidence/                Proof of the demo (see section 9)
-│   ├── README.md            What each evidence file shows
-│   ├── transcript.md        Tool-call transcript of the multi-session demo
-│   ├── inspector/           MCP Inspector screenshots
-│   ├── test-output.txt      Output of npm test
 │   ├── PLAN_LOG.md          ┐
 │   ├── CHECKPOINTS.md       │ copied from the workspace's handoff/ folder
 │   ├── PROJECT_STATE.md     │ by npm run export-evidence
 │   ├── DECISIONS.md         ┘
-│   ├── calls.jsonl          Every tool call the server handled
 │   ├── git-log.txt          The workspace's commit history
 │   └── workspace/           The files the agents made during the demo (a plain copy)
+├── logs/                Proof of the demo (see section 9)
+│   └── calls.jsonl          Every tool call the server handled
 ├── ecosystem.config.cjs     pm2 config: runs the server and the ngrok tunnel
 ├── package.json             Scripts: dev, build, start, test, export-evidence
 ├── tsconfig.json            Strict TypeScript settings
@@ -123,7 +120,6 @@ Created at runtime (not committed, on purpose):
 
 ```
 dist/                        Compiled JavaScript (npm run build)
-logs/calls.jsonl             One JSON line per tool call (live log)
 <WORKSPACE_ROOT>/            The only folder agents can touch (its own git repo)
 ├── handoff/                 PROJECT_STATE.md, PLAN_LOG.md, CHECKPOINTS.md, DECISIONS.md
 ├── .git/                    git history of the workspace (checkpoints)
