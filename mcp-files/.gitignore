@@ -9,6 +9,7 @@ dist/
 
 # Local workspace the agents work in (it is its own git repo)
 workspace/
+/evidence/calls.jsonl
 
 # OS / editor
 .DS_Store
@@ -17,4 +18,3 @@ Thumbs.db
 .idea/
 
 start-ngrok.cmd
-calls.jsonl
